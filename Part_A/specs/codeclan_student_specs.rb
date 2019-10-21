@@ -34,7 +34,7 @@ end
 def test_fave_language
   codeclan_student = CodeclanStudent.new("Michael", "E35", "I can talk!", "Ruby")
     codeclan_student.my_fave_language()
-  assert_equal("I love Ruby", codeclan_student.language)
+  assert_equal("I love Ruby", codeclan_student.my_fave_language)
 end
 
 
